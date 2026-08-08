@@ -1,0 +1,36 @@
+name: Generate Contribution Snake
+
+# Builds an animated "snake" that eats through the contribution graph,
+# using the community-maintained Platane/snk action, and publishes it
+# to the repo's own `output` branch so raw.githubusercontent.com can
+# serve it directly into the README.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"          # daily 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/svg/snake.svg
+            assets/svg/snake-dark.svg?palette=github-dark
+            assets/svg/snake-light.svg?palette=github-light
+
+      - name: Push generated snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: assets/svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

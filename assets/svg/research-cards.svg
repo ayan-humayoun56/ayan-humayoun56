@@ -1,0 +1,44 @@
+<svg width="590" height="324" viewBox="0 0 590 324" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-bg  { fill: #161B22; stroke: #30363D; stroke-width: 1; }
+    .title    { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 15px; font-weight: 600; fill: #F0F6FC; }
+    .subtitle { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11.5px; fill: #8B949E; }
+    .tag      { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 10.5px; fill: #8B949E; }
+    .label    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #F0F6FC; }
+    .small    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #8B949E; }
+    
+  </style>
+  
+  <g transform="translate(20,20)">
+    <rect width="265" height="132" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="4" height="132" rx="2" fill="#58A6FF" />
+    <text x="22" y="34" class="title" style="fill:#F0F6FC">AI Security</text>
+    <text x="22" y="60" class="subtitle" style="fill:#8B949E">Understanding how AI systems fail, and h</text>
+    <text x="22" y="76" class="subtitle" style="fill:#8B949E">ow to make them fail safely.</text>
+    <text x="22" y="114" class="tag" style="fill:#8B949E">#llm-security  #robustness  #red-teaming</text>
+  </g>
+  <g transform="translate(305,20)">
+    <rect width="265" height="132" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="4" height="132" rx="2" fill="#BC8CFF" />
+    <text x="22" y="34" class="title" style="fill:#F0F6FC">Adversarial ML</text>
+    <text x="22" y="60" class="subtitle" style="fill:#8B949E">Studying inputs and attacks designed to </text>
+    <text x="22" y="76" class="subtitle" style="fill:#8B949E">break model behavior.</text>
+    <text x="22" y="114" class="tag" style="fill:#8B949E">#evasion  #poisoning  #prompt-injection</text>
+  </g>
+  <g transform="translate(20,172)">
+    <rect width="265" height="132" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="4" height="132" rx="2" fill="#7EE787" />
+    <text x="22" y="34" class="title" style="fill:#F0F6FC">LLM Security</text>
+    <text x="22" y="60" class="subtitle" style="fill:#8B949E">Vulnerability detection and secure desig</text>
+    <text x="22" y="76" class="subtitle" style="fill:#8B949E">n in LLM-integrated systems.</text>
+    <text x="22" y="114" class="tag" style="fill:#8B949E">#code-analysis  #llm-agents  #eval</text>
+  </g>
+  <g transform="translate(305,172)">
+    <rect width="265" height="132" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="4" height="132" rx="2" fill="#58A6FF" />
+    <text x="22" y="34" class="title" style="fill:#F0F6FC">Cloud Security</text>
+    <text x="22" y="60" class="subtitle" style="fill:#8B949E">Securing cloud-native infrastructure acr</text>
+    <text x="22" y="76" class="subtitle" style="fill:#8B949E">oss AWS and Azure environments.</text>
+    <text x="22" y="114" class="tag" style="fill:#8B949E">#iam  #aws  #azure</text>
+  </g>
+</svg>

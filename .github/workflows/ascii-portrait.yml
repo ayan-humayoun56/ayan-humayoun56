@@ -1,0 +1,62 @@
+name: Generate ASCII Portrait
+
+# Regenerates assets/svg/ascii-portrait.svg from the profile's GitHub avatar.
+# Runs weekly, on manual dispatch, and whenever a new profile.png is pushed.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"          # every Monday 06:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "assets/portrait/profile.png"
+      - "scripts/txt_to_svg.py"
+      - ".github/workflows/ascii-portrait.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build-ascii-portrait:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jp2a
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq jp2a
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Download latest GitHub avatar
+        # ${{ github.repository_owner }} keeps this generic — works for any fork.
+        run: |
+          mkdir -p assets/portrait
+          curl -sL "https://github.com/${{ github.repository_owner }}.png?size=460" \
+            -o assets/portrait/profile.png
+
+      - name: Convert avatar to ASCII text
+        run: |
+          jp2a --width=68 --chars=" .:-=+*#%@" \
+            assets/portrait/profile.png \
+            > assets/portrait/ascii-portrait.txt
+
+      - name: Render themed SVG from ASCII text
+        run: |
+          python3 scripts/txt_to_svg.py \
+            assets/portrait/ascii-portrait.txt \
+            assets/svg/ascii-portrait.svg \
+            --title "ayan@github:~/portrait" \
+            --color green
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/portrait/profile.png assets/portrait/ascii-portrait.txt assets/svg/ascii-portrait.svg
+          git diff --staged --quiet || git commit -m "chore: refresh ascii portrait [automated]"
+          git push

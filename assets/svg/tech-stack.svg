@@ -1,0 +1,54 @@
+<svg width="781" height="478" viewBox="0 0 781 478" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-bg  { fill: #161B22; stroke: #30363D; stroke-width: 1; }
+    .title    { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 15px; font-weight: 600; fill: #F0F6FC; }
+    .subtitle { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 11.5px; fill: #8B949E; }
+    .tag      { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 10.5px; fill: #8B949E; }
+    .label    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #F0F6FC; }
+    .small    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #8B949E; }
+    
+  </style>
+  
+  <g transform="translate(20,20)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Programming</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#7EE787" /><text x="32" y="66" class="label" style="fill:#F0F6FC">C++</text><circle cx="22" cy="80" r="2.5" fill="#7EE787" /><text x="32" y="84" class="label" style="fill:#F0F6FC">Python</text>
+  </g>
+  <g transform="translate(273,20)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Cybersecurity</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#58A6FF" /><text x="32" y="66" class="label" style="fill:#F0F6FC">Wireshark</text><circle cx="22" cy="80" r="2.5" fill="#58A6FF" /><text x="32" y="84" class="label" style="fill:#F0F6FC">Burp Suite</text><circle cx="22" cy="98" r="2.5" fill="#58A6FF" /><text x="32" y="102" class="label" style="fill:#F0F6FC">Nmap</text><circle cx="22" cy="116" r="2.5" fill="#58A6FF" /><text x="32" y="120" class="label" style="fill:#F0F6FC">Kali Linux</text>
+  </g>
+  <g transform="translate(526,20)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Cloud</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#BC8CFF" /><text x="32" y="66" class="label" style="fill:#F0F6FC">AWS</text><circle cx="22" cy="80" r="2.5" fill="#BC8CFF" /><text x="32" y="84" class="label" style="fill:#F0F6FC">Azure</text>
+  </g>
+  <g transform="translate(20,172)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Networking</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#7EE787" /><text x="32" y="66" class="label" style="fill:#F0F6FC">TCP/IP</text><circle cx="22" cy="80" r="2.5" fill="#7EE787" /><text x="32" y="84" class="label" style="fill:#F0F6FC">OSI Model</text><circle cx="22" cy="98" r="2.5" fill="#7EE787" /><text x="32" y="102" class="label" style="fill:#F0F6FC">Packet Tracer</text>
+  </g>
+  <g transform="translate(273,172)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Operating Systems</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#58A6FF" /><text x="32" y="66" class="label" style="fill:#F0F6FC">Ubuntu</text><circle cx="22" cy="80" r="2.5" fill="#58A6FF" /><text x="32" y="84" class="label" style="fill:#F0F6FC">Kali Linux</text><circle cx="22" cy="98" r="2.5" fill="#58A6FF" /><text x="32" y="102" class="label" style="fill:#F0F6FC">Windows</text>
+  </g>
+  <g transform="translate(526,172)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Frontend</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#BC8CFF" /><text x="32" y="66" class="label" style="fill:#F0F6FC">React</text><circle cx="22" cy="80" r="2.5" fill="#BC8CFF" /><text x="32" y="84" class="label" style="fill:#F0F6FC">AI-assisted Prototyping</text>
+  </g>
+  <g transform="translate(20,324)">
+    <rect width="235" height="134" rx="10" class="card-bg" />
+    <text x="20" y="30" class="title" style="font-size:13.5px;fill:#F0F6FC">Databases</text>
+    <line x1="20" y1="40" x2="215" y2="40" stroke="#30363D" stroke-width="1" />
+    <circle cx="22" cy="62" r="2.5" fill="#7EE787" /><text x="32" y="66" class="label" style="fill:#F0F6FC">PostgreSQL</text><circle cx="22" cy="80" r="2.5" fill="#7EE787" /><text x="32" y="84" class="label" style="fill:#F0F6FC">Supabase</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="500" height="330" viewBox="0 0 500 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="neofetch system information">
+  <style>
+    .frame  { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+    .bar    { fill: #161B22; }
+    .title  { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #8B949E; }
+    .prompt { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13px; fill: #7EE787; }
+    .key    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12.5px; fill: #58A6FF; }
+    .val    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12.5px; fill: #F0F6FC; }
+    .dim    { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12.5px; fill: #8B949E; }
+    .rule   { stroke: #30363D; stroke-width: 1; }
+    .swatch { rx: 2; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="499" height="329" rx="10" class="frame" />
+  <path d="M 0.5 10.5 A 10 10 0 0 1 10.5 0.5 L 489.5 0.5 A 10 10 0 0 1 499.5 10.5 L 499.5 32 L 0.5 32 Z" class="bar" />
+  <circle cx="22" cy="16" r="5" fill="#FF5F56" />
+  <circle cx="40" cy="16" r="5" fill="#FFBD2E" />
+  <circle cx="58" cy="16" r="5" fill="#27C93F" />
+  <text x="250" y="20" text-anchor="middle" class="title">ayan@github:~</text>
+
+  <text x="24" y="56" class="prompt">ayan@github:~$ neofetch</text>
+
+  <text x="24" y="86"  class="key">Name</text>       <text x="140" y="86"  class="dim">............</text> <text x="248" y="86"  class="val">Ayan Humayoun</text>
+  <text x="24" y="108" class="key">Role</text>       <text x="140" y="108" class="dim">............</text> <text x="248" y="108" class="val">Computer Science Student</text>
+  <text x="24" y="130" class="key">University</text> <text x="140" y="130" class="dim">......</text>        <text x="248" y="130" class="val">University of Karachi</text>
+  <text x="24" y="152" class="key">Research</text>   <text x="140" y="152" class="dim">........</text>      <text x="248" y="152" class="val">AI &amp; LLM Security</text>
+  <text x="24" y="174" class="key">Focus</text>      <text x="140" y="174" class="dim">...........</text>   <text x="248" y="174" class="val">Adversarial ML, Cloud Security</text>
+  <text x="24" y="196" class="key">Languages</text>  <text x="140" y="196" class="dim">.......</text>       <text x="248" y="196" class="val">C++, Python</text>
+  <text x="24" y="218" class="key">OS</text>         <text x="140" y="218" class="dim">..............</text><text x="248" y="218" class="val">Ubuntu / Kali Linux</text>
+  <text x="24" y="240" class="key">Editor</text>     <text x="140" y="240" class="dim">..........</text>    <text x="248" y="240" class="val">VS Code</text>
+  <text x="24" y="262" class="key">Goal</text>       <text x="140" y="262" class="dim">............</text> <text x="248" y="262" class="val">PhD in Computer Security</text>
+
+  <line x1="24" y1="282" x2="436" y2="282" class="rule" />
+
+  <rect x="24"  y="294" width="14" height="14" rx="2" fill="#58A6FF" />
+  <rect x="46"  y="294" width="14" height="14" rx="2" fill="#7EE787" />
+  <rect x="68"  y="294" width="14" height="14" rx="2" fill="#BC8CFF" />
+  <rect x="90"  y="294" width="14" height="14" rx="2" fill="#8B949E" />
+  <rect x="112" y="294" width="14" height="14" rx="2" fill="#F0F6FC" />
+</svg>

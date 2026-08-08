@@ -1,0 +1,17 @@
+<svg width="409" height="141" viewBox="0 0 409 141" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ayan@github:~/portrait">
+  <style>
+    .frame  { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+    .bar    { fill: #161B22; }
+    .title  { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #8B949E; }
+    .ascii  { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12.5px; fill: #7EE787; white-space: pre; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="408" height="140" rx="10" class="frame" />
+  <path d="M 0.5 10.5 A 10 10 0 0 1 10.5 0.5 L 398.5 0.5 A 10 10 0 0 1 408.5 10.5 L 408.5 32 L 0.5 32 Z" class="bar" />
+  <circle cx="22" cy="16" r="5" fill="#FF5F56" />
+  <circle cx="40" cy="16" r="5" fill="#FFBD2E" />
+  <circle cx="58" cy="16" r="5" fill="#27C93F" />
+  <text x="204.5" y="20" text-anchor="middle" class="title">ayan@github:~/portrait</text>
+
+  <text x="24" y="44.0" class="ascii">                    .:-=+*#%@</text><text x="24" y="59.5" class="ascii">                  portrait pending</text><text x="24" y="75.0" class="ascii">              run &quot;Generate ASCII Portrait&quot;</text><text x="24" y="90.5" class="ascii">                  workflow to populate</text><text x="24" y="106.0" class="ascii">                    this automatically</text>
+</svg>
