@@ -32,9 +32,10 @@ Based in Karachi, Pakistan. Open to AI engineer and software engineer roles.
 
 <img src="assets/h-stack.svg" alt="Stack" height="36">
 
-<img src="assets/stack-languages.svg" alt="Languages: Python, C++, TypeScript, JavaScript, HTML, CSS" width="268">
-<img src="assets/stack-ai.svg" alt="AI and agents: Gemini, ONNX, Streamlit, FastAPI" width="268">
-<img src="assets/stack-tools.svg" alt="Tools and cloud: Linux, Git, GitHub, AWS, VS Code" width="268">
+<picture>
+  <source media="(max-width: 700px)" srcset="assets/stack-mobile.svg">
+  <img src="assets/stack.svg" alt="Stack. Languages: Python, C++. AI and agents: LangGraph, vector databases, MCP servers. Tools and cloud: Linux, Git, GitHub, AWS, VS Code." width="826">
+</picture>
 
 <br>
 
